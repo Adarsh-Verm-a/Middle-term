@@ -1,19 +1,44 @@
-.input{
+*{
+    font-family: monospace;
+    font-size: 2vh
+}
+body{
+    background-color: #BFACC8;
+    
    
 }
 input{
-    height: 2vh;
+    height: 5vh;
     margin: 2vh;
+    outline: none;
+    border-radius: 1vh;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px ;
+    border:none;
+    
+    
     
 }
 
 button{
     margin: 2vh;
-    border-radius: 2vh;
+    border-radius: 1vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
     border: none;
+    background-color: #4A4063;
+    width: 20vh;
+    height: 5vh;
+    padding: 3vh 0vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    
+
 }
 h1{
     display: block;
+}
+label{
+    font-size: 4vh;
 }
 
