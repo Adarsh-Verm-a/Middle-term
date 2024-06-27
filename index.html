@@ -9,28 +9,29 @@
     <link rel="stylesheet" href="assets.css">
 </head>
 
-<body>
+<body class=" flex complete_center">
     <div class="container">
-        <h1>Quadratic Equation Middle Term Finder</h1>
-        <form id="quadratic-form">
+        
+        <form class="quadratic-form">
+            <div class="jus_center flex">
             <label for="quadratic-equation">Enter a quadratic equation:</label>
-
+        </div>
             <div class="input flex" div>
                 <input type="text" class="quadratic-equation" placeholder="ax*x" required>
                 <p>+</p>
                 <input type="text" class="quadratic-equation" placeholder="bx" required>
                 <p>+</p>
                 <input type="text" class="quadratic-equation" placeholder="c" required>
-            </div>
-            <div class = " result"div>
-                <p>Result:</p><p class="res"p>69</p>
+                </div>     
+                <div class="flex jus_center">
+                    <button type="submit">Find Middle Term</button>
                 </div>
-
-
-            <button type="submit">Find Middle Term</button>
+                <div class="result jus_center flex">
+                    Result:
+                </div>
+                        
         </form>
-        <div id="result"></div>
-    </div>
+         
     <script src="script.js"></script>
 </body>
 
