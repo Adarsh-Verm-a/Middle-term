@@ -4,7 +4,8 @@
 }
 body{
     background-color: #BFACC8;
-    
+    padding-top: 12%;
+    background-image:url(//images6.alphacoders.com/819/819282.png);
    
 }
 input{
@@ -17,6 +18,9 @@ input{
     
     
     
+}
+.header{
+    width: 100%;
 }
 
 button{
@@ -41,4 +45,18 @@ h1{
 label{
     font-size: 4vh;
 }
+
+.logo{
+    display: inline-block;
+    margin-right: auto;
+    margin-bottom: 19px;
+    margin-left: auto;
+    padding: 21px;
+    border: 8px solid #fff;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 8px;
+    text-shadow: none;
+}
+
 
